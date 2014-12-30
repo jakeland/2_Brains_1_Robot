@@ -43,8 +43,7 @@ public class ArmScript : MonoBehaviour {
 						rtr = -180;
 
 
-		print ("rtl = " + rtl);
-		print ("rtr = " + rtr);
+
 		if (((rtl + Time.deltaTime * rml) > 0) && ((rtl + Time.deltaTime * rtl) < 180)) {
 						armL.transform.Rotate  (0, 0, rml * Time.deltaTime * speed);
 			}
