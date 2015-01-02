@@ -1,6 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BulletSpawner.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Bullet_Think.cs">
     <Files>
       <File FileName="Assets\Pickups.cs" Line="37" Column="75" />
       <File FileName="Assets\Enemy1_Think.cs" Line="1" Column="1" />
@@ -10,7 +10,7 @@
       <File FileName="Assets\Spawn_Thing.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerSpawn.cs" Line="1" Column="1" />
       <File FileName="Assets\BulletSpawner.cs" Line="5" Column="2" />
-      <File FileName="Assets\Bullet_Think.cs" Line="1" Column="1" />
+      <File FileName="Assets\Bullet_Think.cs" Line="13" Column="27" />
       <File FileName="Assets\Item.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
