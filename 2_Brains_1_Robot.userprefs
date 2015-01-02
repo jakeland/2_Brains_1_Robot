@@ -1,22 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Finisher.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BulletSpawner.cs">
     <Files>
-      <File FileName="Assets\Scripts\ArmScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TurretThink.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerController.cs" Line="11" Column="32" />
-      <File FileName="Assets\Scripts\FollowPlayer.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\StartButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Pickups.cs" Line="37" Column="75" />
+      <File FileName="Assets\Enemy1_Think.cs" Line="1" Column="1" />
       <File FileName="Assets\Manager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Missing_Robot.cs" Line="1" Column="1" />
-      <File FileName="Assets\Pickups.cs" Line="43" Column="19" />
-      <File FileName="Assets\Item.cs" Line="9" Column="24" />
-      <File FileName="Assets\Remover.cs" Line="1" Column="1" />
-      <File FileName="Assets\laserScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\rHand.cs" Line="1" Column="1" />
-      <File FileName="Assets\lHand.cs" Line="61" Column="36" />
-      <File FileName="Assets\Finisher.cs" Line="31" Column="28" />
+      <File FileName="Assets\Scripts\StartButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Finisher.cs" Line="1" Column="1" />
+      <File FileName="Assets\Spawn_Thing.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PlayerSpawn.cs" Line="1" Column="1" />
+      <File FileName="Assets\BulletSpawner.cs" Line="5" Column="2" />
+      <File FileName="Assets\Bullet_Think.cs" Line="1" Column="1" />
+      <File FileName="Assets\Item.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

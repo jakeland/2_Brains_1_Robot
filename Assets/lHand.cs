@@ -5,7 +5,7 @@ public class lHand : MonoBehaviour {
 	int layerMask = 1 << 9;
 	LineRenderer line;
 
-	public Transform rightHand;
+	public Transform rightHand;  
 	private bool fire = false;
 	void Awake(){
 		layerMask = ~layerMask;
@@ -13,7 +13,7 @@ public class lHand : MonoBehaviour {
 		line.enabled= false;
 
 	}
-
+	 
 	void Update(){
 
 		if (fire)

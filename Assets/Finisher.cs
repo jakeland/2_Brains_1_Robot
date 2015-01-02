@@ -3,7 +3,8 @@ using System.Collections;
 
 public class Finisher : MonoBehaviour {
 	float health = 100;
-	float hurtTimer = 2;
+	private GameObject God;
+	float hurtTimer = 2; 
 	public float maxhurtTimer = 2;
 	public float damage = 10;
 	// Use this for initialization
@@ -14,6 +15,11 @@ public class Finisher : MonoBehaviour {
 		}
 
 	}
+	void Start(){
+		God = GameObject.FindGameObjectWithTag ("God");
+
+
+		}
 	
 	// Update is called once per frame
 	void Update () {
@@ -23,12 +29,13 @@ public class Finisher : MonoBehaviour {
 		if(health < 0)
 		{
 			destroyFence();
+			God.SendMessage("Complete");
 		}
 
 	}
 
 	void destroyFence(){
-		//show fence, free robot;
+
 	}
 
 

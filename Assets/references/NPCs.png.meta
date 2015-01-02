@@ -64,8 +64,8 @@ TextureImporter:
         y: 16
         width: 46
         height: 80
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .499999821, y: .697811425}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: NPCs_2
       rect:
@@ -74,8 +74,8 @@ TextureImporter:
         y: 27
         width: 59
         height: 67
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .602722168, y: .605533063}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: NPCs_3
       rect:
@@ -84,8 +84,8 @@ TextureImporter:
         y: 39
         width: 57
         height: 73
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .505906999, y: .144850329}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

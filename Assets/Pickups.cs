@@ -34,27 +34,26 @@ public class Pickups : MonoBehaviour {
 		
 		energy += Time.deltaTime * energyDet;
 
-
+		healthbar.transform.localScale = new Vector3 ( (health/maxHealth), 1,1);
 		timerbar.transform.localScale = new Vector3 ((energy/maxEnergy),1,1);
 
 		if (health <= 0)
 		{
-
-			//do something;
+			Application.LoadLevel(Application.loadedLevel);
 		}
 
 
 }
 
-	
+
 
 	void hurt(){
 		health --;
-		print(health);
+
 		healthbar.transform.localScale =new Vector3 ((health/maxHealth),1,1);
 
 	}
-	void bighurt(){
+	void bigHurt(){
 		if(canDamage == true)
 		{
 		health -= 10;
@@ -66,7 +65,7 @@ public class Pickups : MonoBehaviour {
 		void countdown(){
 		while (hurtTimer > 0)
 		{
-			hurtTimer -= -Time.deltaTime;
+			hurtTimer -= Time.deltaTime;
 
 		}
 		canDamage = true;
@@ -85,7 +84,7 @@ public class Pickups : MonoBehaviour {
 			{
 				health = maxHealth;
 			}
-			healthbar.transform.localScale = new Vector3 ( (health/maxHealth), 1,1);
+
 			col.SendMessage("Kill");
 		}
 

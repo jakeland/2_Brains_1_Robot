@@ -26,7 +26,6 @@ public class Item : MonoBehaviour {
 	{
 		if (col.gameObject.tag == "Player")
 		{
-			print (passT);
 		col.gameObject.SendMessage("pickup",passT);
 		}
 	}
@@ -36,7 +35,7 @@ public class Item : MonoBehaviour {
 
 		if (col.gameObject.tag == "Player") 
 		{
-			print ("In the thing");
+
 			col.gameObject.SendMessage("pickup", passT);
 
 

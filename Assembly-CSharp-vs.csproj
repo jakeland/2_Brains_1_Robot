@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B411B58B-0E42-6594-6555-76DCB5758364}</ProjectGuid>
+	<ProjectGuid>{36B96225-E041-B50E-6683-27E29BC3848E}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -39,13 +39,20 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Users/Jakeland/Game Design/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Users/Jakeland/Game Design/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BatterySpawner.cs" />
+     <Compile Include="Assets\BulletSpawner.cs" />
+     <Compile Include="Assets\Bullet_Think.cs" />
+     <Compile Include="Assets\CameraFollow.cs" />
+     <Compile Include="Assets\Enemy1_Think.cs" />
+     <Compile Include="Assets\Enemy2_Think.cs" />
+     <Compile Include="Assets\Enemy_Health.cs" />
      <Compile Include="Assets\Finisher.cs" />
      <Compile Include="Assets\Item.cs" />
      <Compile Include="Assets\Manager.cs" />
@@ -53,6 +60,7 @@
      <Compile Include="Assets\Pickups.cs" />
      <Compile Include="Assets\Remover.cs" />
      <Compile Include="Assets\Robo_Spawn.cs" />
+     <Compile Include="Assets\Scientist_Think.cs" />
      <Compile Include="Assets\Scripts\ArmScript.cs" />
      <Compile Include="Assets\Scripts\EnemySpawn.cs" />
      <Compile Include="Assets\Scripts\EnemyThink.cs" />
@@ -61,6 +69,7 @@
      <Compile Include="Assets\Scripts\PlayerSpawn.cs" />
      <Compile Include="Assets\Scripts\StartButton.cs" />
      <Compile Include="Assets\Scripts\TurretThink.cs" />
+     <Compile Include="Assets\Spawn_Thing.cs" />
      <Compile Include="Assets\lHand.cs" />
      <Compile Include="Assets\laserScript.cs" />
      <Compile Include="Assets\rHand.cs" />

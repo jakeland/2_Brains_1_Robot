@@ -27,6 +27,6 @@ public class StartButton : MonoBehaviour {
 	}
 
 	void OnMouseDown () {
-		Application.LoadLevel ("Level1");
+		Application.LoadLevel ("Level_01");
 	}
 }

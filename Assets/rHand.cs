@@ -4,7 +4,7 @@ using System.Collections;
 public class rHand : MonoBehaviour {
 	int layerMask = 1 << 9;
 	LineRenderer line;
-	public Transform leftHand;
+	public Transform leftHand; 
 	private bool fire = false;
 
 	void Awake(){
