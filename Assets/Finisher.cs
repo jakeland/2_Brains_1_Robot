@@ -2,14 +2,17 @@
 using System.Collections;
 
 public class Finisher : MonoBehaviour {
-	float health = 100;
+	public float health = 100f;
 	private GameObject God;
-	float hurtTimer = 2; 
-	public float maxhurtTimer = 2;
-	public float damage = 10;
+	float hurtTimer = 0.5f; 
+	public float maxhurtTimer = 2f;
+	public float damage = 10f;
+	public GameObject OpenFence;
+	private bool done = false;
+
 	// Use this for initialization
 	void hurt () {
-		if(hurtTimer <=0){
+		if(hurtTimer <= 0){
 		health -= damage;
 		hurtTimer = maxhurtTimer;
 		}
@@ -19,22 +22,30 @@ public class Finisher : MonoBehaviour {
 		God = GameObject.FindGameObjectWithTag ("God");
 
 
+		OpenFence.renderer.material.color = new Color(1f,1f,1f,0f);
+
+
+
 		}
 	
 	// Update is called once per frame
 	void Update () {
-		if(hurtTimer >0)
+		if(hurtTimer > 0)
 		hurtTimer -= Time.deltaTime;
-
-		if(health < 0)
+		if(done == false)
+		if(health <= 0)
 		{
-			destroyFence();
-			God.SendMessage("Complete");
+			killFence();
+			done = true;
+
 		}
+
 
 	}
 
-	void destroyFence(){
+	void killFence(){
+		OpenFence.renderer.material.color = new Color(1f,1f,1f,1f);
+		God.SendMessage ("RobotFree");
 
 	}
 

@@ -57,6 +57,7 @@
      <Compile Include="Assets\Item.cs" />
      <Compile Include="Assets\Manager.cs" />
      <Compile Include="Assets\Missing_Robot.cs" />
+     <Compile Include="Assets\NPC_Thought.cs" />
      <Compile Include="Assets\Pickups.cs" />
      <Compile Include="Assets\Remover.cs" />
      <Compile Include="Assets\Robo_Spawn.cs" />

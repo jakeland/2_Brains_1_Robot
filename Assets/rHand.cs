@@ -50,8 +50,7 @@ void Update(){
 			
 			if (hit.collider.tag == "Enemy")
 				hit.collider.SendMessage ("hurt");
-			if (hit.collider.tag == "cage")
-			hit.collider.SendMessage ("create");
+
 
 
 			
