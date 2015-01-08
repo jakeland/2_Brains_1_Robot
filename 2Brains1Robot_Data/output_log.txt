@@ -1,0 +1,28 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA Quadro K2000 (ID=0xffe)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Jakeland\Documents\2_Brains_1_Robot\2Brains1Robot_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Jakeland\Documents\2_Brains_1_Robot\2Brains1Robot_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Jakeland\Documents\2_Brains_1_Robot\2Brains1Robot_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Jakeland\Documents\2_Brains_1_Robot\2Brains1Robot_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.031 seconds
+desktop: 1600x900 60Hz; virtual: 2752x900 at -1152,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.251753 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 310.
+Total: 0.533659 ms (FindLiveObjects: 0.013465 ms CreateObjectMapping: 0.009367 ms MarkObjects: 0.072598 ms  DeleteObjects: 0.011416 ms)
+
+UnloadTime: 1.200514 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 325.
+Total: 1.606248 ms (FindLiveObjects: 0.050643 ms CreateObjectMapping: 0.045666 ms MarkObjects: 0.237409 ms  DeleteObjects: 0.100701 ms)
+
